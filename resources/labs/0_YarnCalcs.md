@@ -1,16 +1,8 @@
-Worker vcores	8 - Amount vcore per machine
-Worker spindles	12	
-Worker RAM	15 - Amount RAM per machine	
-Workload factor	2  - I choose this option because I prefer minus I/O Bound	
-Worker nodes	3  - Amount my workers	
-		
-	Memory	vcores
-OS	1,5	2
-NodeManager	1	1
-DataNode	1	1
-Impalad	0	0
-CM Agent	1	1
-HBase	0	0
-Solr	0	0
-YARN resources	10,5	3
+# OS	
+I just 2 vcore is enough for the OS
 
+# NodeManager and DataNode
+I just reconfigured my NodeManager and DataNode because I use more resources for reading my blocks
+
+# Impalad
+I intend to use Imapala a lot, so I have reserved memory for it, 50 GB and 6 vcore

@@ -39,7 +39,6 @@ sys	0m0.414s
 Deleted /user/aquinovale/tg-10GB-8-1-1024
 Deleted /user/aquinovale/ts-10GB-8-1-1024
 Testing loop ended on Tue Apr 4 21:23:13 UTC 2017
-[1]+  Exit 2                  ./YARNtest.sh
 
 real	7m34.201s
 user	1m34.840s
