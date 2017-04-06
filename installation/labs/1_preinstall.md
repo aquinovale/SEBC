@@ -1,3 +1,5 @@
+# The images are in the same folder.
+
 # Swappiness
 Img = swappiness.png
 
